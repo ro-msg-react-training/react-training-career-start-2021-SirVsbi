@@ -2,13 +2,8 @@ import React from "react";
 import {ListItemIcon} from "@material-ui/core";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
-import { Link } from "react-router-dom"
-
-
-export type ListItemProps = {
-    title: string,
-    Icon?: any
-}
+import {Link} from "react-router-dom"
+import {ListItemProps} from "../../model/DrawerListItemProp";
 
 
 export const DrawerListItem = ({title, Icon}: ListItemProps) =>
